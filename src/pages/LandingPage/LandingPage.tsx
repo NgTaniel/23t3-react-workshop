@@ -27,9 +27,9 @@ function LandingPage() {
         </button>
 
         <button onClick={() => navigate('/exercise')}
-        onMouseOver={() => handleMouseOver("Blank lab exercise")}
+        onMouseOver={() => handleMouseOver("Todo-List ")}
         onMouseOut={() => handleMouseOut()}>
-          Exercise (blank)
+          Exercise (not-so-blank)
         </button>
 
         <button onClick={() => navigate('/solution')}
